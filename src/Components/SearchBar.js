@@ -10,7 +10,7 @@ const SearchBar = ({ getValue }) => {
 
   return (
     <div className="ui center aligned segment">
-      <h2>影片搜尋 </h2>
+      <h2>影片搜尋： </h2>
       <form className="ui left icon action input huge" onSubmit={onSubmitForm}>
         <i className="search icon"></i>
         <input
